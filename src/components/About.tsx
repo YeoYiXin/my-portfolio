@@ -33,9 +33,9 @@ const About = () => {
             importance of good time management skills and willingness to ask
             questions. My{" "}
             <b>
-              current passion lies in the world of Artificial Intelligence (AI),
-              building applications, and embracing the captivating world of
-              Machine Learning
+              current passion lies in the world of Artificial Intelligence {"("}
+              AI{")"}, building applications, and embracing the captivating
+              world of Machine Learning
             </b>
             .
           </p>
@@ -51,9 +51,9 @@ const About = () => {
             aiming to make student's life more convenient as well as several
             other projects. Stay tuned for a showcase of the projects! I hope
             you enjoy your time here browsing my portfolio. Please feel free to
-            contact me (Send me an email through the Contact me section or drop
-            me a message on LinkedIn!) if you want to collaborate with me for
-            projects, competitions or even just a chat!{" "}
+            contact me {"("}Send me an email through the Contact me section or
+            drop me a message on LinkedIn{")"} if you want to collaborate with
+            me for projects, competitions or even just a chat!{" "}
             <b>
               I am always open to new opportunities! I am looking for an
               internship job from June 2024 to September 2024 as a software
