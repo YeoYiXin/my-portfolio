@@ -22,47 +22,29 @@ const About = () => {
         </Motion>
         <div className="border-2 border-blackPurple border-opacity-50 bg-blackPurple bg-opacity-20 w-5/6 mt-5 md:mt-10 px-3 py-3 rounded-lg shadow-md">
           <p className="p-3">
-            Welcome to my portfolio{"!"} I am currently a 2nd Year Computer
-            Science student at the University of Nottingham Malaysia. In the
-            realm of academia{","} my journey has seen me excel as a{" "}
-            <b>JPA LSPM scholar</b>
-            and awarded the{" "}
-            <b>Dean&apos;s List student for two consecutive years</b>
-            {","} consistently ranking in the top 2{"%"} of my cohort.
+            Hello{","} I am currently a 2nd Year Computer Science student at the
+            University of Nottingham Malaysia. In the realm of academia{","} my
+            journey has seen me excel as a <b>JPA LSPM scholar </b>
+            and awarded the <b>Dean&apos;s List for two consecutive years</b>
+            {"."}
           </p>
           <p className="p-3">
             I approach learning with an open mind{","} strongly believing in the
-            importance of good time management skills and willingness to ask
-            questions. My{" "}
+            importance of good time management skills. My{" "}
             <b>
-              current passion lies in the world of Artificial Intelligence {"("}
-              AI{")"}
-              {","} building applications, and embracing the captivating world
-              of Machine Learning
+              current passion lies in building web and mobile applications,
+              Machine Learning and AI
             </b>
             .
           </p>
           <p className="p-3">
-            I have also been working hard to learn more tech skills. This
-            portfolio is a testament to my exploratory spirit, as it marks my
-            first web development with Next.js{"!"} I am also currently spending
-            time to strengthen my knowledge on machine learning, web and mobile
-            development, and AI model and external API integration.
-          </p>
-          <p className="p-3">
-            In this academic year, I am collaborating in an exciting project,
-            aiming to make student&apos;s life more convenient as well as
-            several other projects. Stay tuned for a showcase of the projects
-            {"!"} I hope you enjoy your time here browsing my portfolio. Please
-            feel free to contact me {"("}Send me an email through the Contact me
-            section or drop me a message on LinkedIn{")"} if you want to
-            collaborate with me for projects{","} competitions or even just a
-            chat{"!"}{" "}
+            Please feel free to contact me through email or drop me a message on
+            LinkedIn if you want to collaborate with me for projects{","} or
+            even just a chat{"!"} I welcome all new opportunities{"!"}{" "}
             <b>
-              I am always open to new opportunities{"!"} I am looking for an
-              internship job from June 2024 to September 2024 as a software
-              engineer{"/"}other suitable positions in hope of getting more
-              real-world experiences{"!"}
+              I am currently looking for an internship job from June 2024 to
+              September 2024 as a software engineer{"/"}other suitable positions
+              in hope of getting more real-world experiences{"."}
             </b>
           </p>
         </div>
