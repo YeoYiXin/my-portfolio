@@ -63,8 +63,8 @@ const Projects = () => {
             availability of the car and make a reservation for a particular
             date. Upon successful reservation, the reservation number is
             provided to the customer.This reservation number is required for
-            changes to an existing reservation and to validate the customer{"'"}
-            s identity when they pick up their rental vehicle.
+            changes to an existing reservation and to validate the customer
+            {"&apos;"}s identity when they pick up their rental vehicle.
           </p>
           <p>
             Next, the website can be used to change or update booking
@@ -133,10 +133,10 @@ const Projects = () => {
             application into three main logical components: the model, the view,
             and the controller. The model represents the data, the view
             represents the user interface, and the controller handles the
-            communication between the model and view. It also apply Liskov's
-            Substitution Principle, and Single Responsibility Principle. Code
-            smells such as duplicated code, long method, and long class are also
-            refactored.
+            communication between the model and view. It also apply
+            Liskov&apos;s Substitution Principle, and Single Responsibility
+            Principle. Code smells such as duplicated code, long method, and
+            long class are also refactored.
           </p>
         </>
       ),
@@ -153,39 +153,41 @@ const Projects = () => {
         <>
           <p>
             The novel booking system which utilizes singly linked list to store
-            up to 40 visitor's information. Each user's information is stored in
-            a struct that stores the serial number, ticket number, name and
-            user's identification number. The ticket is generated using decimal
-            conversion of first 6 characters from the visitor's name including
-            the space{"("}s{")"}. In addition to that, the ticket number
-            includes appending the serial number at the right. If visitor's name
-            is less than 6 alphabets, spaces is appended at the beginning of the
-            name
-            {"("}left side{")"}. If the length of user's name is greater than 6
-            alphabets, then ticket number will be generated according to the
-            decimal conversion of the first 6 characters of the user's name.
+            up to 40 visitor&apos;s information. Each user&apos;s information is
+            stored in a struct that stores the serial number, ticket number,
+            name and user&apos;s identification number. The ticket is generated
+            using decimal conversion of first 6 characters from the
+            visitor&apos;s name including the space{"("}s{")"}. In addition to
+            that, the ticket number includes appending the serial number at the
+            right. If visitor&apos;s name is less than 6 alphabets, spaces is
+            appended at the beginning of the name
+            {"("}left side{")"}. If the length of user&apos;s name is greater
+            than 6 alphabets, then ticket number will be generated according to
+            the decimal conversion of the first 6 characters of the user&apos;s
+            name.
           </p>
           <p>
             The system is able to add user information and then providing user
-            with their serial number. Total number of visitor's information is
-            also displayed so that the number of visitors can be tracked. If the
-            number of visitors exceeds 40, it will restrict the user from adding
-            more visitors. The system is also able to display all the visitor's
-            information if needed. Other than that, the system can search for
-            one or more visitors' information by their name. To search for
-            unique visitor's information, user can search via their serial
-            number, identification number, passport number or ticket number. The
-            system is also able to delete one or more visitors' information by
-            their name. To delete unique visitor's information, user can delete
-            via their serial number, identification number, passport number or
-            ticket number. The system is also able to sort the visitor's name in
-            ascending order.
+            with their serial number. Total number of visitor&apos;s information
+            is also displayed so that the number of visitors can be tracked. If
+            the number of visitors exceeds 40, it will restrict the user from
+            adding more visitors. The system is also able to display all the
+            visitor&apos;s information if needed. Other than that, the system
+            can search for one or more visitors&apos; information by their name.
+            To search for unique visitor&apos;s information, user can search via
+            their serial number, identification number, passport number or
+            ticket number. The system is also able to delete one or more
+            visitors&apos; information by their name. To delete unique
+            visitor&apos;s information, user can delete via their serial number,
+            identification number, passport number or ticket number. The system
+            is also able to sort the visitor&apos;s name in ascending order.
           </p>
           <p>
             Another interesting implementation is that the system hold the
-            ability to save visitors' information from previous execution.
+            ability to save visitors&apos; information from previous execution.
             Deletion of user information will not alter the serial number of the
-            other visitors' information below the deleted visitor's information.
+            other visitors&apos; information below the deleted visitor&apos;s
+            information.
           </p>
         </>
       ),

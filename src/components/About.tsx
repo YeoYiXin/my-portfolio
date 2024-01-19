@@ -22,10 +22,12 @@ const About = () => {
         </Motion>
         <div className="border-2 border-blackPurple border-opacity-50 bg-blackPurple bg-opacity-20 w-5/6 mt-5 md:mt-10 px-3 py-3 rounded-lg shadow-md">
           <p className="p-3">
-            Welcome to my portfolio{"!"} I am currently a 2nd Year Computer Science
-            student at the University of Nottingham Malaysia. In the realm of
-            academia{","} my journey has seen me excel as a <b>JPA LSPM scholar</b>
-            and awarded the <b>Dean's List student for two consecutive years</b>
+            Welcome to my portfolio{"!"} I am currently a 2nd Year Computer
+            Science student at the University of Nottingham Malaysia. In the
+            realm of academia{","} my journey has seen me excel as a{" "}
+            <b>JPA LSPM scholar</b>
+            and awarded the{" "}
+            <b>Dean&apos;s List student for two consecutive years</b>
             {","} consistently ranking in the top 2{"%"} of my cohort.
           </p>
           <p className="p-3">
@@ -34,8 +36,9 @@ const About = () => {
             questions. My{" "}
             <b>
               current passion lies in the world of Artificial Intelligence {"("}
-              AI{")"}{","} building applications, and embracing the captivating
-              world of Machine Learning
+              AI{")"}
+              {","} building applications, and embracing the captivating world
+              of Machine Learning
             </b>
             .
           </p>
@@ -48,12 +51,13 @@ const About = () => {
           </p>
           <p className="p-3">
             In this academic year, I am collaborating in an exciting project,
-            aiming to make student{"'"}s life more convenient as well as several
-            other projects. Stay tuned for a showcase of the projects{"!"} I hope
-            you enjoy your time here browsing my portfolio. Please feel free to
-            contact me {"("}Send me an email through the Contact me section or
-            drop me a message on LinkedIn{")"} if you want to collaborate with
-            me for projects{","} competitions or even just a chat{"!"}{" "}
+            aiming to make student&apos;s life more convenient as well as
+            several other projects. Stay tuned for a showcase of the projects
+            {"!"} I hope you enjoy your time here browsing my portfolio. Please
+            feel free to contact me {"("}Send me an email through the Contact me
+            section or drop me a message on LinkedIn{")"} if you want to
+            collaborate with me for projects{","} competitions or even just a
+            chat{"!"}{" "}
             <b>
               I am always open to new opportunities{"!"} I am looking for an
               internship job from June 2024 to September 2024 as a software
