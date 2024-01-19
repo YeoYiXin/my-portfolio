@@ -71,7 +71,7 @@ const ContactMe = () => {
             I am currently looking for internship opportunities or any project
             collaboration opportunities. Feel free to send me an email! Whether
             you have a question or just want to say hi, I will try my best to
-            get back to you as soon as possible!
+            get back to you as soon as possible{"!"}
           </p>
         </Reveal>
         <Reveal width="100%">

@@ -65,7 +65,7 @@ const Introduction = () => {
       <div className="absolute left-0 lg:left-20 text-lg items-center py-8 md:py-10 mt-10 px-2 md:px-5 lg:px-20 ml-2 lg:ml-20 z-10">
         <Motion>
           <div className="items-center text-3xl md:text-5xl md:py-8 font-bold">
-            Hello, I am Yeo Yi Xin
+            Hello{","} I am Yeo Yi Xin
           </div>
         </Motion>
         <Motion>
@@ -79,7 +79,7 @@ const Introduction = () => {
         <Motion>
           <div className="md:py-7">
             <h1 className="font-bold text-xl md:text-4xl">
-              Download my resume:
+              Download my resume{":"}
             </h1>
           </div>
         </Motion>

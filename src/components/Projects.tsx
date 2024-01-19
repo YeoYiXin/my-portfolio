@@ -19,8 +19,8 @@ const Projects = () => {
           <p>
             This portfolio marks my first project built using Next.js framework.
             It is an exceptional portfolio designed to introduce myself, and
-            showcase my skills and projects in a dynamic way! This template is
-            built using React library using TypeScript, which provides static
+            showcase my skills and projects in a dynamic way{"!"} This template
+            is built using React library using TypeScript, which provides static
             type checking and help ensure code quality.
           </p>
           <p>
@@ -63,8 +63,8 @@ const Projects = () => {
             availability of the car and make a reservation for a particular
             date. Upon successful reservation, the reservation number is
             provided to the customer.This reservation number is required for
-            changes to an existing reservation and to validate the customer's
-            identity when they pick up their rental vehicle.
+            changes to an existing reservation and to validate the customer{"'"}
+            s identity when they pick up their rental vehicle.
           </p>
           <p>
             Next, the website can be used to change or update booking
@@ -124,8 +124,9 @@ const Projects = () => {
         <>
           <p>
             Refactoring, testing and extending an existing classic retro game
-            (Brick Breaker) using JavaFX for building Graphical User Interface
-            (GUI).
+            {"("}Brick Breaker{")"} using JavaFX for building Graphical User
+            Interface
+            {"("}GUI{")"}.
           </p>
           <p>
             The game is built using MVC principle, which separates the
@@ -156,10 +157,11 @@ const Projects = () => {
             a struct that stores the serial number, ticket number, name and
             user's identification number. The ticket is generated using decimal
             conversion of first 6 characters from the visitor's name including
-            the space(s). In addition to that, the ticket number includes
-            appending the serial number at the right. If visitor's name is less
-            than 6 alphabets, spaces is appended at the beginning of the name
-            (left side). If the length of user's name is greater than 6
+            the space{"("}s{")"}. In addition to that, the ticket number
+            includes appending the serial number at the right. If visitor's name
+            is less than 6 alphabets, spaces is appended at the beginning of the
+            name
+            {"("}left side{")"}. If the length of user's name is greater than 6
             alphabets, then ticket number will be generated according to the
             decimal conversion of the first 6 characters of the user's name.
           </p>
@@ -203,15 +205,16 @@ const Projects = () => {
             Congestion Management and Crowd Control System is implemented to
             tackle or control congestion and crowded situations in hospital
             areas such as the waiting areas for visitors to visit the in-patient
-            wards, outpatient clinics, Intensive Care Units(ICU), and outpatient
+            wards, outpatient clinics, Intensive Care Units, and outpatient
             consultation rooms within a hospital building. In the system, the
             number of current visitors is generated using Random Number
-            Generator (RGN) and if the number of visitors exceeds the maximum
+            Generator and if the number of visitors exceeds the maximum
             capacity, the system will inform user that they are not allowed to
-            enter and they will have to wait for a period of time (current time
-            + estimated waiting time according to worst case scenario) if they
-            are willing to wait. If the user do not wish to wait, they can
-            choose to apply for another location within the hospital building.
+            enter and they will have to wait for a period of time {"("}current
+            time + estimated waiting time according to worst case scenario{")"}{" "}
+            if they are willing to wait. If the user do not wish to wait, they
+            can choose to apply for another location within the hospital
+            building.
           </p>
           <p>
             If the user is given permission to enter the specific location
