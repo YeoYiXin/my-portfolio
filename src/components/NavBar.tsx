@@ -51,12 +51,12 @@ const NavBar = () => {
               type="button"
               id="dropdownNavbarLink"
               data-dropdown-toggle="dropdownNavbar"
-              className="md:hidden hover:transition hover:delay-100 hover:scale-110 hover:bg-opacity-70"
+              className="lg:hidden hover:transition hover:delay-100 hover:scale-110 hover:bg-opacity-70"
               onClick={toggleMenu}
             >
               <BiMenu className="w-10 h-10 md:w-19 md:h-19 md:mx-3 text-stoneWhite" />
             </button>
-            <div className="hidden md:block md:text-stoneWhite md:mt-3">
+            <div className="hidden lg:block md:text-stoneWhite md:mt-3">
               <div className="md:flex md:flex-row items-center justify-between lg:justify-start">
                 <ul className="no-underline md:flex md:space-x-4 md:text-lg md:px-2">
                   <li className="">
@@ -147,7 +147,7 @@ const NavBar = () => {
               ? `transition ease-in-out delay-500 bg-black bg-opacity-80`
               : `backdrop-blur-lg`
           } ${
-            showMenu ? "block" : "md:hidden"
+            showMenu ? "block" : "lg:hidden"
           } z-40 left-0 top-10 font-normal divide-y shadow-xl`}
         >
           <NavMenu showMenu={showMenu} />

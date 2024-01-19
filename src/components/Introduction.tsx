@@ -60,7 +60,7 @@ const Introduction = () => {
     document.body.removeChild(anchor);
   };
   return (
-    <div className="w-screen h-[23rem] md:h-[20rem] lg:h-screen relative m-auto mb-0">
+    <div className="w-screen h-[23rem] md:h-[35rem] lg:h-screen relative m-auto mb-0 md:mb-5">
       {/*Name and animation*/}
       <div className="absolute left-0 lg:left-20 text-lg items-center py-8 md:py-10 mt-10 px-2 md:px-5 lg:px-20 ml-2 lg:ml-20 z-10">
         <Motion>

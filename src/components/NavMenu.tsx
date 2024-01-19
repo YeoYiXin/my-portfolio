@@ -4,7 +4,6 @@ type MenuProps = {
 };
 
 const NavMenu = ({ showMenu }: MenuProps) => {
-  // const menuStyle = showMenu ? { top: "100%" } : { display: "none" };
   return (
     <>
       <div
