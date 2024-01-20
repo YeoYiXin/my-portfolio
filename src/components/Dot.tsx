@@ -4,13 +4,13 @@ import anime from "animejs";
 
 const Dot = () => {
   return (
-    <div className="relative grid place-content-center px-0 py-8 lg:py-5 lg:px-3">
+    <div className="grid place-content-center px-0 py-12 mt-10 md:mt-5 lg:py-5 lg:px-3 lg:mt-0">
       <DotGrid />
     </div>
   );
 };
-const GRID_WIDTH = 25;
-const GRID_HEIGHT = 22;
+const GRID_WIDTH = 23;
+const GRID_HEIGHT = 26;
 
 const DotGrid = () => {
   //selector, scale - takes an array of all the different stops of the animation

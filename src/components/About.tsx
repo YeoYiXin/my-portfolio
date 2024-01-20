@@ -10,7 +10,7 @@ import Motion from "./Motion";
 
 const About = () => {
   return (
-    <div className="mt-5">
+    <div className="mt-5 md:mt-10">
       <div
         id="aboutMe"
         className="w-screen flex flex-col items-center justify-center m-auto mb-5"
