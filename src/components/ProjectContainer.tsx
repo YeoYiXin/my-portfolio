@@ -81,9 +81,12 @@ const ProjectContainer = ({
           </div>
 
           <div className="mt-10">
-            <p className="font-bold text-md md:text-lg lg:text-xl mb-3">
-              Project Links<span>:</span>
-            </p>
+            {code != "" ||
+              (projectLink != "" && (
+                <p className="font-bold text-md md:text-lg lg:text-xl mb-3">
+                  Project Links<span>:</span>
+                </p>
+              ))}
             <div className="flex content-center gap-5">
               {code != "" && (
                 <Link target="_blank" rel="nofollow" href={code}>
