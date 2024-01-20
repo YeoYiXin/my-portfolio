@@ -85,9 +85,11 @@ const ProjectContainer = ({
               Project Links<span>:</span>
             </p>
             <div className="flex content-center gap-5">
-              <Link target="_blank" rel="nofollow" href={code}>
-                <AiFillGithub size={30} />
-              </Link>
+              {code != "" && (
+                <Link target="_blank" rel="nofollow" href={code}>
+                  <AiFillGithub size={30} />
+                </Link>
+              )}
               {projectLink != "" && (
                 <Link target="_blank" rel="nofollow" href={projectLink}>
                   <AiOutlineExport size={30} />

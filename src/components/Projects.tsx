@@ -9,7 +9,7 @@ const Projects = () => {
     {
       title: "Yeo Yi Xin's Portfolio",
       image: "/My_portfolio.png",
-      code: "",
+      code: "https://github.com/YeoYiXin/my-portfolio",
       projectLink: "", //if projectLink is empty, then it will be a private project
       tech: ["Next.js", "React", "Tailwind CSS", "TypeScript", "EmailJS"],
       description:

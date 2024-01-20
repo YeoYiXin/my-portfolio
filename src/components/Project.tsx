@@ -73,9 +73,11 @@ const Project = ({
                 {title}
               </h4>
               <div className="flex gap-5">
-                <Link href={code} target="_blank" rel="nofollow">
-                  <AiFillGithub className="text-2xl md:text-2xl lg:text-3xl " />
-                </Link>
+                {code != "" && (
+                  <Link href={code} target="_blank" rel="nofollow">
+                    <AiFillGithub className="text-2xl md:text-2xl lg:text-3xl " />
+                  </Link>
+                )}
 
                 {projectLink != "" && (
                   <Link href={projectLink} target="_blank" rel="nofollow">
