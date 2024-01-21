@@ -16,6 +16,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="overflow-x-hidden">
+      <head>
+        <meta name="image" property="og:image" content="My_portfolio.png" />
+        <meta
+          name="title"
+          property="og:title"
+          content="Yeo Yi Xin's Portfolio"
+        />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
