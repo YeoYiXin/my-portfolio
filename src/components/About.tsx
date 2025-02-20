@@ -22,10 +22,11 @@ const About = () => {
         </Motion>
         <div className="border-2 border-blackPurple border-opacity-50 bg-blackPurple bg-opacity-20 w-5/6 mt-5 md:mt-10 px-3 py-3 rounded-lg shadow-md">
           <p className="p-3">
-            Hello{","} I am currently a 2nd Year Computer Science student at the
-            University of Nottingham Malaysia. In the realm of academia{","} my
-            journey has seen me excel as a <b>JPA LSPM scholar </b>
-            and awarded the <b>Dean&apos;s List for two consecutive years</b>
+            Hello{","} I am currently a final year Computer Science student at
+            the University of Nottingham Malaysia. Throughout my academic
+            journey{","} I have excel as a <b>JPA LSPM scholar </b>
+            and have been awarded the{" "}
+            <b>Dean&apos;s List for three consecutive years</b>
             {"."}
           </p>
           <p className="p-3">
@@ -42,10 +43,16 @@ const About = () => {
             LinkedIn if you want to collaborate with me for projects{","} or
             even just a chat{"!"} I welcome all new opportunities{"!"}{" "}
             <b>
-              I am currently looking for an internship job from June 2024 to
-              September 2024 as a software engineer{"/"}other suitable positions
-              in hope of getting more real-world experiences{"."}
+              I am currently seeking for a full{"-"}time job as a Software
+              Engineer or other suitable positions starting June 2025{"."} 
             </b>
+            With a strong foundation in web and mobile development{","} AI{","} and
+            machine learning{","} I am eager to apply my skills to real-world
+            challenges{","} drive innovation{","} and create meaningful impact
+            {"."} I thrive in dynamic environments and am excited about
+            opportunities that push boundaries{","} foster growth{","} and
+            allow me to contribute to cutting-edge projects{"."}
+        
           </p>
         </div>
       </div>
