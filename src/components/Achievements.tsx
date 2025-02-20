@@ -5,11 +5,27 @@ import Achievement from "./Achievement";
 const Achievements = () => {
   const achievements = [
     {
+      title: "FOSE Dean's Excellence Scholarship (DES) Award 2024",
+      issuer: "Dean of the Faculty of Science and Engineering (FOSE)",
+      image: "",
+      description:
+        "Awarded the DES, which is for the Top 2% highest performing student of the cohort.",
+    },
+
+    {
       title: "1st Runner Up in Alphathon",
       issuer: "WorldQuant BRAIN",
       image: "",
       description:
         "Won 1st Runner Up in an individual competition, Alphathon, lasting from 18th October to 9th November 2023. Participants were required to create alphas, trading algorithm that can generate the highest return on investment.",
+    },
+
+    {
+      title: "2nd Runner Up Best Presentation in Software Engineering Group Project",
+      issuer: "School of Computer Science",
+      image: "",
+      description:
+        "Awarded the 2nd Runner Up Best Presentation for Software Engineering Group Project - a full-year development project. The title of the project is: A Novel IoT-Based Problem Reporting System Utilising Human Sensors: A Case Study at University of Nottingham Malaysia",
     },
 
     {

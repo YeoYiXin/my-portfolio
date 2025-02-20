@@ -68,8 +68,7 @@ const ContactMe = () => {
       <div className=" m-auto rounded-sm mt-5 md:mt-10 lg:mt-15 md:px-10">
         <Reveal width="100%">
           <p className="text-center font-light mx-5 mb-5">
-            I am currently looking for internship opportunities or any project
-            collaboration opportunities. Feel free to send me an email! Whether
+            I am currently looking for full-time job opportunities. Feel free to send me an email! Whether
             you have a question or just want to say hi, I will try my best to
             get back to you as soon as possible{"!"}
           </p>

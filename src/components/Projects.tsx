@@ -5,6 +5,139 @@ import Image from "next/image";
 
 const Projects = () => {
   const projects = [
+    // PlanMe mobile application
+    {
+      title: "PlanMe",
+      image: "/planme.png",
+      code: "",
+      projectLink: "", //if projectLink is empty, then it will be a private project
+      tech: ["Kotlin", "MVVM", "Jetpack Compose", "Co-Routines", "Hilt", "Retrofit", "Material Design 3", "Firebase", "Google API", "ViewModel"],
+      description:
+        "PlanMe is a user-friendly travel planning mobile app designed to streamline trip organization by allowing users to upload and manage travel-related screenshots. The app intelligently extracts key details, consolidates recommendations, and provides a seamless itinerary planning experience.",
+      modalContent: (
+        <>
+          <p>
+            <b>PlanMe</b> is an AI-powered travel planning mobile application 
+            that helps users consolidate places, restaurants, and attractions by 
+            intelligently analyzing uploaded screenshots. It eliminates the need for 
+            manual note-taking and scattered bookmarks, offering a streamlined trip 
+            planning experience.
+          </p>
+          <p>
+            The app utilizes Optical Character Recognition {"("}OCR{")"} and 
+            Google Places to pull relevant details from screenshots, 
+            automatically categorizing and structuring travel information. Users can 
+            then create, modify, and share personalized itineraries with ease.
+          </p>
+          <p>
+            <b>Key Features:</b>
+            <ul>
+              <li>- Integration with Google API for extracting locations from screenshots</li>
+              <li>- Easy organization of saved places for future reference</li>
+              <li>- User-friendly interface with a streamlined planning experience</li>
+              <li>- Secure cloud storage via Firebase for seamless data access</li>
+            </ul>
+          </p>
+          <p>
+            Built with modern technologies such as MVVM, Material Design 3, Compose, and Firebase, PlanMe is designed to enhance travel planning efficiency. Whether for local outings or international trips, PlanMe ensures users never lose track of the places they want to visit.
+          </p>
+        </>
+      ),
+    },
+
+    // SEGP App
+    {
+      title: "Nott-A-Problem (NAP) Mobile Application",
+      image: "/napApp.png",
+      code: "https://github.com/YeoYiXin/Problem-Reporting-System",
+      projectLink: "", //if projectLink is empty, then it will be a private project
+      tech: ["Flutter", "Tailwind CSS", "TypeScript", "Flask", "Python", "Tensorflow", "Firebase", "Google Cloud Run"],
+      description:
+        "A problem reporting mobile application that utilises human as sensors.",
+      modalContent: (
+        <>
+          <p>
+            <b>NAP</b> is an innovative 
+            IoT-based problem reporting system designed to streamline issue reporting 
+            at the University of Nottingham Malaysia. By leveraging AI-driven models 
+            and a user-friendly mobile interface, NAP simplifies the process, making 
+            problem reporting faster and more efficient.
+          </p>
+          <p>
+            The existing system required users to navigate complex web interfaces 
+            and fill out lengthy forms, often discouraging reports. NAP eliminates 
+            these barriers by enabling real-time issue detection, automated priority 
+            assignments, and seamless verification using AI-powered image classification 
+            {"("}MobileNetV2{")"} and GPT-4 summarization.
+          </p>
+          <p>
+            <b>Key Features:</b>
+            <ul>
+              <li>- AI-powered problem identification with 90% accuracy.</li>
+              <li>- Efficient error handling and duplication detection.</li>
+              <li>- Automated priority, status, and department assignment.</li>
+              <li>- Precise outdoor location detection for issue mapping.</li>
+              <li>- Transparent issue tracking for users.</li>
+              <li>- Gamification elements to encourage engagement.</li>
+            </ul>
+          </p>
+          <p>
+            The application is built using <strong>Flutter</strong> for a smooth 
+            cross-platform experience, with backend services hosted on 
+            <strong>Google Cloud Run</strong> and <strong>Firebase</strong>. 
+            AI models are trained in <strong>TensorFlow</strong> for enhanced 
+            classification accuracy.
+          </p>
+          <p>
+            Developed as part of <b>SEGP Group B 2023/24</b>, NAP represents a 
+            leap towards a digital-first campus, fostering a proactive culture of maintenance 
+            and issue resolution.
+          </p>
+        </>
+      ),
+    },
+
+    // SEGP Website
+    {
+      title: "Nott-A-Problem (NAP) Administrative Website",
+      image: "/napWebsite.png",
+      code: "https://github.com/YeoYiXin/nap-website",
+      projectLink: "", //if projectLink is empty, then it will be a private project
+      tech: ["Next.js", "React", "Tailwind CSS", "TypeScript", "Firebase", "Google Maps"],
+      description:
+        "A comprehensive administrative website to visualise the way admin receive the problem report after user submit throup NAP app.",
+      modalContent: (
+        <>
+          <p>
+            <b>NAP</b> website is developed to visualise the way administration 
+            will view the submitted report.
+          </p>
+          <p>
+            The existing system required users to navigate complex web interfaces 
+            and fill out lengthy forms, often discouraging reports. NAP eliminates 
+            these barriers by enabling real-time issue detection, automated priority 
+            assignments, and seamless verification using AI-powered image classification 
+            {"("}MobileNetV2{")"} and GPT-4 summarization.
+          </p>
+          <p>
+            <b>Key Features:</b>
+            <ul>
+              <li>- Visualisation of the submitted problem report on the administration view.</li>
+              <li>- Efficient filtering of email according to location, status, problem class and department.</li>
+              <li>- Delete or edit the problem report.</li>
+              <li>- View statistical information of the reported problem.</li>
+              <li>- Automated assignment of problem to the list of available departments.</li>
+            </ul>
+          </p>
+          <p>
+            Developed as part of <b>SEGP Group B 2023/24</b>, NAP represents a 
+            leap towards a digital-first campus, fostering a proactive culture of maintenance 
+            and issue resolution.
+          </p>
+        </>
+      ),
+    },
+    
     //portfolio
     {
       title: "Yeo Yi Xin's Portfolio",

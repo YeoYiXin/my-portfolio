@@ -5,9 +5,17 @@ import Experience from "./Experience";
 const Experiences = () => {
   const experiences = [
     {
+      title: "Intern, Tech Engineering",
+      issuer: "GXBank Berhad",
+      date: "June 2024 - September 2024",
+      description:
+        "Worked closely with the FinTrust Backend Team, contributing to API development, unit testing (Go), database optimization, and deployment while refining best practices through code reviews and documentation (Swagger).",
+    },
+
+    {
       title: "Student Intern - Full Stack Developer",
       issuer: "University of Nottingham Malaysia",
-      date: "June 2023 - September 2023, January 2024 - Present",
+      date: "June 2023 - September 2023",
       description:
         "Led a collaborative team of 2 to develop a website featuring Cartoon, Watercolour and Impressionism filters.",
     },
