@@ -105,7 +105,7 @@ const Projects = () => {
       projectLink: "", //if projectLink is empty, then it will be a private project
       tech: ["Next.js", "React", "Tailwind CSS", "TypeScript", "Firebase", "Google Maps"],
       description:
-        "A comprehensive administrative website to visualise the way admin receive the problem report after user submit throup NAP app.",
+        "A comprehensive administrative website to visualise the way admin receive the problem report after user submit through NAP app.",
       modalContent: (
         <>
           <p>
