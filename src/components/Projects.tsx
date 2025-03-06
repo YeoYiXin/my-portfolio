@@ -71,7 +71,7 @@ const Projects = () => {
     {
       title: "Nott-A-Problem (NAP) Mobile Application",
       image: "/napApp.png",
-      code: "https://github.com/YeoYiXin/Problem-Reporting-System",
+      code: "",
       projectLink: "", //if projectLink is empty, then it will be a private project
       tech: [
         "Flutter",
@@ -131,7 +131,7 @@ const Projects = () => {
     {
       title: "Nott-A-Problem (NAP) Administrative Website",
       image: "/napWebsite.png",
-      code: "https://github.com/YeoYiXin/nap-website",
+      code: "",
       projectLink: "", //if projectLink is empty, then it will be a private project
       tech: [
         "Next.js",
